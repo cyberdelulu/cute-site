@@ -1,0 +1,76 @@
+body {
+  text-align: center;
+  background: #fff0f5;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+  margin-top: 60px;
+}
+
+.kitty {
+  width: 200px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 15px 25px;
+  font-size: 18px;
+  margin: 10px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#yesBtn {
+  background: #ff69b4;
+  color: white;
+}
+
+#noBtn {
+  background: #ccc;
+}
+
+.calligraphy {
+  font-family: cursive;
+  font-size: 3rem;
+  margin-top: 50px;
+}
+
+.gifts button {
+  margin: 20px;
+  font-size: 20px;
+}
+
+.photo-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.box {
+  width: 120px;
+  height: 120px;
+  border: 2px dashed #aaa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.letter {
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  background: #fff8dc;
+  border: 1px solid #ddd;
+  font-family: serif;
+  line-height: 1.6;
+}
